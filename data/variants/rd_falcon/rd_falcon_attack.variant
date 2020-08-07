@@ -1,0 +1,50 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 7,
+    "fluxVents": 8,
+    "goalVariant": true,
+    "hullId": "rd_falcon",
+    "hullMods": [
+        "RD_humanizedTargetPositioning",
+        "RD_enhanced_shield_c"
+    ],
+    "permaMods": [],
+    "variantId": "rd_falcon_attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "RD_Quasar_pulse_laser"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "RD_positive_ion",
+                "WS0001": "RD_negative_ion",
+                "WS0002": "RD_positive_ion_prod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "RD_RavagerLaserCannon",
+                "WS0004": "RD_RavagerLaserCannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "RD_ThunderrEnforcer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "RD_pd_laser_small",
+                "WS 004": "RD_pd_laser_small"
+            }
+        }
+    ]
+}

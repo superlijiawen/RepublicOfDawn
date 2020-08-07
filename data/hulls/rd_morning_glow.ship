@@ -1,0 +1,221 @@
+{
+  "hullName": "RD_morning_glow",
+  "hullId": "rd_morning_glow",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/rd_morning_glow.png",
+  "style": "DAWN_TECH",
+  "height": 262,
+  "width": 110,
+  "center": [55, 127.5],
+  "collisionRadius": 148,
+  "shieldCenter": [2, -0],
+  "shieldRadius": 144,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 45,
+      "locations": [-68, 29.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -45,
+      "locations": [-68, -29.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [20.5, 42.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [20.5, -42.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [60.5, 42.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [60.5, -42.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [112, 41]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [112, -41]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [121.5, 17]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [121.5, -17]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-44.5, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-125, 28.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-125, -28.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-124.5, 19.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-124.5, -19.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-123.5, 11],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-123.5, -11],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-123.5, -0],
+      "length": 30,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "DAWN_TECH"
+    }
+  ],
+  "bounds": [
+    122.5, 3.5,
+    131.5, 9,
+    130, 28,
+    118, 39,
+    116, 48.5,
+    93.5, 51,
+    85, 36.5,
+    82, 44,
+    72, 44,
+    71, 54.5,
+    50.5, 54.5,
+    50, 48,
+    33, 48,
+    31.5, 54.5,
+    10, 54,
+    9.5, 47,
+    -14, 43,
+    -22.5, 38.5,
+    -47, 37.5,
+    -64.5, 55,
+    -90, 36.5,
+    -116, 40,
+    -124, 32,
+    -124, -32,
+    -116, -40,
+    -90, -36.5,
+    -64.5, -55,
+    -47, -37.5,
+    -22.5, -38.5,
+    -14, -43,
+    9.5, -47,
+    10, -54,
+    31.5, -54.5,
+    33, -48,
+    50, -48,
+    50.5, -54.5,
+    71, -54.5,
+    72, -44,
+    82, -44,
+    85, -36.5,
+    93.5, -51,
+    116, -48.5,
+    118, -39,
+    130, -28,
+    131.5, -9,
+    122.5, -3.5
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "RD_ThunderRetributor",
+  "specClass": "projectile",
+  "projectileSpecId": "RD_ThunderRetributor_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/thunder/rd_thunder_retributor.png",
+  "turretGlowSprite": "graphics/weapons/thunder/rd_thunder_retributor_glow.png",
+  "hardpointSprite": "graphics/weapons/thunder/rd_thunder_retributor.png",
+  "hardpointGlowSprite": "graphics/weapons/thunder/rd_thunder_retributor_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    200,
+    40,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    19,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    29,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 33,
+    "spread": 15,
+    "particleSizeMin": 10,
+    "particleSizeRange": 12,
+    "particleDuration": 0.12,
+    "particleCount": 17,
+    "particleColor": [
+      150,
+      30,
+      255,
+      255
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "ion_cannon_fire"
+}

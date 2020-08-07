@@ -1,0 +1,59 @@
+{
+  "id": "RD_pd_laser_small",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/pdlaser/rd_pd_laser_small.png",
+  "turretGlowSprite": "graphics/weapons/pdlaser/rd_pd_laser_small_glow.png",
+  "hardpointSprite": "graphics/weapons/pdlaser/rd_pd_laser_small.png",
+  "hardpointGlowSprite": "graphics/weapons/pdlaser/rd_pd_laser_small_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    255,
+    0,
+    205,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    9.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    15,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    0,
+    175,
+    255
+  ],
+  "coreColor": [
+    255,
+    0,
+    205,
+    255
+  ],
+  "width": 12,
+  "textureType": LASER,
+  "textureScrollSpeed": 250,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "graviton_beam_loop"
+}

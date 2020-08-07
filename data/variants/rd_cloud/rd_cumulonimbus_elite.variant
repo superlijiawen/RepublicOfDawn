@@ -1,0 +1,63 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 6,
+    "fluxVents": 14,
+    "hullId": "rd_cumulonimbus",
+    "hullMods": [
+        "RD_enhanced_shield_a",
+        "dedicated_targeting_core"
+    ],
+    "permaMods": [],
+    "variantId": "rd_cumulonimbus_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "RD_ThunderArbiter"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0012": "RD_negative_ion",
+                "WS0013": "RD_positive_ion"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0016": "RD_ThunderrEnforcer",
+                "WS0017": "RD_ThunderrEnforcer",
+                "WS0020": "RD_ThunderRetributor",
+                "WS0021": "RD_ThunderRetributor"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "hveldriver",
+                "WS0007": "hveldriver",
+                "WS0010": "taclaser",
+                "WS0011": "taclaser",
+                "WS0014": "taclaser",
+                "WS0015": "taclaser",
+                "WS0018": "RD_icecrystalray",
+                "WS0019": "RD_icecrystalray"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "RD_pd_laser_middle",
+                "WS0003": "RD_pd_laser_middle",
+                "WS0004": "dualflak",
+                "WS0005": "dualflak",
+                "WS0008": "RD_pd_laser_small",
+                "WS0009": "RD_pd_laser_small"
+            }
+        }
+    ]
+}

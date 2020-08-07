@@ -1,0 +1,24 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 8,
+    "fluxVents": 5,
+    "hullId": "rd_atlas",
+    "hullMods": ["RD_humanized_logistics"],
+    "permaMods": [],
+    "variantId": "rd_atlas_balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "railgun"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 002": "lightdualmg"
+            }
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+人性化后勤,RD_humanized_logistics,1,,黎明工程,req_spaceport,"后勤,需要船坞",8000,,,,6,14,20,35,data.hullmods.RD_HumanizedLogistics,"宇宙航速增加{%s},最大速度增加{%s}",提升宇宙航速及最大航速,graphics/hullmods/RD_HumanizedLogistics.png
+人性化目标定位系统,RD_humanizedTargetPositioning,3,,黎明工程,offensive,武器,12000,,,,4,8,16,24,data.hullmods.RD_HumanizedTargetPositioning,"根据舰船级别，提高实弹和能量武器{%s/%s/%s/%s}射程。同时增加导弹射程{%s},不能和专注型目标锁定核心等类似插件同时使用。",大幅度提高射程,graphics/hullmods/RD_HumanizedTargetPositioning.png
+共和国燃料舱扩容,RD_republic_fuel_expansion,1,,黎明工程,req_spaceport,"后勤,需要船坞",6000,,,,4,8,16,24,data.hullmods.RD_RepublicFuelExpansion,"燃料容量提升{%s},最低船员需求提高{%s}",增加燃料容量,graphics/hullmods/RD_RepublicFuelExpansion.png
+共和国货仓扩容,RD_republicCargoExpansion,1,,黎明工程,req_spaceport,"后勤,需要船坞",6000,,,,4,8,16,24,data.hullmods.RD_RepublicCargoExpansion,"货仓容量提升{%s},最低船员需求提高{%s}.",增加货仓容量,graphics/hullmods/RD_RepublicCargoExpansion.png
+Emp防护系统,RD_emp_protection,2,,黎明工程,"req_spaceport,special","特殊,需要船坞",8000,,,,3,6,12,18,data.hullmods.RD_EmpProtection,获得{%s}倍的emp伤害减免,emp伤害减免,graphics/hullmods/RD_EmpProtection.png
+黎明高端引擎,RD_highend_engine,3,,黎明工程,req_spaceport,需要船坞,20000,,,,8,16,24,36,data.hullmods.RD_HighEndEngine,"只有黎明共和国的舰船才能安装。全面提升舰船机动性，包括最大速度、转向加速度、最大转向角、加速度、减速度、零辐能增益全部增加{%s},但是cr损失速率提高至{%s},引擎受到的伤害提升至{%s}.",全面提升机动性,graphics/hullmods/RD_HighEndEngine.png
+,,,,,,,,,,,,,,,,,,
+# 特殊,,,,,,,,,,,,,,,,,,
+特殊畸形船体,RD_deformed_hull,0,,黎明工程,"special, offensive","特殊,武器",,,True,,0,0,0,0,data.hullmods.RD_SpecialDeformedHull,"该舰经过大规模改造，提升了攻击性牺牲了机动性。对战机、护卫舰的伤害提升至 {%s}, 对驱逐舰的伤害提升至 {%s}, 对巡洋舰及主力舰几乎没有伤害提升。
+
+转向性能（转向速度、最大转向角、护盾转向速度）降低 {%s},补给消耗增加{%s}",小船蹂躏者，大幅度增加对战机、护卫舰的伤害,graphics/hullmods/RD_DeformedHull.png
+黎明狙击,RD_dawn_sniper,0,,黎明工程,"special, offensive","特殊,武器",,,True,,0,0,0,0,data.hullmods.RD_DawnSniper,"能量武器射程提高{%s},每安装一个黎明共和国的插件或者武器，都会额外获得{%s}的增益",远程狙击敌方,graphics/hullmods/RD_DawnSniper.png
+永不解体,RD_never_disintegrate,0,,黎明工程,special,特殊,,,True,,0,0,0,0,data.hullmods.RD_NeverDisintegrate,永远不会解体的船只。,永不解体,graphics/hullmods/RD_NeverDisintegrate.png
+,,,,,,,,,,,,,,,,,,
+# 特色护盾插件,,,,,,,,,,,,,,,,,,
+共和国增强护盾A型,RD_enhanced_shield_a,0,,黎明工程,"defensive, shields",护盾,20000,,,,5,11,17,28,data.hullmods.RD_RepublicEnhancedShield_A,减少{%s}护盾受到的伤害，同时护盾吸收降低{%s}。与B型及强化护盾冲突。,大幅度降低护盾受到的伤害,graphics/hullmods/RD_RepublicEnhancedShield_A.png
+共和国增强护盾B型,RD_enhanced_shield_b,0,,黎明工程,"defensive, shields",护盾,16000,,,,4,7,11,17,data.hullmods.RD_RepublicEnhancedShield_B,减少{%s}维持护盾产生的软辐能，但不会影响硬辐能。但是会减少{%s}护盾转向角。与A型及稳定护盾冲突,大幅度降低维持护盾产生的软辐能,graphics/hullmods/RD_RepublicEnhancedShield_B.png
+共和国增强护盾C型,RD_enhanced_shield_c,0,,黎明工程,"defensive, shields",护盾,16000,,,,4,7,11,17,data.hullmods.RD_RepublicEnhancedShield_C,"护盾最大角度提升至{%s},护盾展开速率提升至{%s},护盾转向速度提升至{%s}。与全角护盾发生器、定向护盾发生器、固化护盾发生器、敏捷护盾冲突",大幅度提高护盾展开及转向性能,graphics/hullmods/RD_RepublicEnhancedShield_C.png
+,,,,,,,,,,,,,,,,,,
+# 内置插件,,,,,,,,,,,,,,,,,,
+共和国净化——进攻型,RD_purification_attack,0,,黎明工程,offensive,武器,,,True,,0,0,0,0,data.hullmods.RD_RepublicPurification_Attack,实弹武器伤害、能量武器伤害、辐能耗散速率均提升{%s},提升攻击性,graphics/hullmods/RD_RepublicPurification_Attack.png
+共和国净化——防御型,RD_purification_defence,0,,黎明工程,defensive,防御,,,True,,0,0,0,0,data.hullmods.RD_RepublicPurification_Defence,"护盾伤害获得伤害减免{%s},护盾维持消耗、护盾被 EMP 电弧 及其他电磁武器击穿的概率也相应减少。",提升防御性,graphics/hullmods/RD_RepublicPurification_Defence.png
+共和国净化——均衡型,RD_purification_balanced,0,,黎明工程,"offensive,defensive","武器,防御",,,True,,0,0,0,0,data.hullmods.RD_RepublicPurification_Balanced,辐能容量、辐能耗散速率、护盾伤害减免、护盾转向速度、护盾最大角度均提升{%s}。,均衡提升,graphics/hullmods/RD_RepublicPurification_Balanced.png
+航母净化,RD_aircraftcarrie_purification,0,,黎明工程,offensive,武器,,,True,,0,0,0,0,data.hullmods.RD_AircraftCarriePurification,"该航母经过共和国强化改造，增强了战机整备速率和自身防御能力。pd点防御能量武器的射程提高{%s},战机整备速率提高{%s},补给每日消耗增加{%s},完全修复成本增加{%s}.",提升航母作战能力,graphics/hullmods/RD_AircraftCarriePurification.png
+远行者能源系统,RD_voyager_energy,0,,黎明工程,special,"后勤,特殊",,,True,,0,0,0,0,data.hullmods.RD_VoyagerEnergy,"该舰安装了黎明共和国研制的内置燃料工厂.每天随机生产 {%s} ~ {%s} 个燃料,如果当舰队当前的燃料值低于 {%s} 天的燃料消耗总量，则会生产 {%s} 个燃料（基础值）.
+
+燃料工厂会根据舰船等级提供额外增益，""圣徒""级生产值为基础值，""圣使""级生产值为基础值+{%s},""圣使""级生产值为基础值+{%s}。如果货仓中有反物质熔炉则会额外产出2个单位。",自动制造燃料,graphics/hullmods/RD_VoyagerEnergy.png
+云式舰船,RD_cloud_ship,0,,黎明工程,special,特殊,,,True,,0,0,0,0,data.hullmods.RD_CloudShip,"“云”系列舰船专属内置插件,作用是获得{%s}倍的emp伤害减免,与emp防护系统可叠加,此外，护盾被击穿的概率也减半",云系列舰船内置插件,graphics/hullmods/RD_CloudShip.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,

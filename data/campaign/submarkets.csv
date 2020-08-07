@@ -1,0 +1,2 @@
+id,name,faction,desc,script,icon,order
+rd_high_market,曙光市场,republic_of_dawn,曙光高级市场，14天一个周期更新一次，过期不候！,data.scripts.campaign.econ.submarkets.RD_DawnSubmarketPlugin,,0

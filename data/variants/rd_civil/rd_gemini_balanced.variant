@@ -1,0 +1,29 @@
+{
+    "displayName": "Balanced",
+    "fluxCapacitors": 7,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "rd_gemini",
+    "hullMods": [
+        "RD_enhanced_shield_c",
+        "RD_republicCargoExpansion"
+    ],
+    "permaMods": [],
+    "variantId": "rd_gemini_balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "flak",
+                "WS 002": "flak"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "RD_positive_ion_prod"}
+        }
+    ],
+    "wings": ["talon_wing"]
+}

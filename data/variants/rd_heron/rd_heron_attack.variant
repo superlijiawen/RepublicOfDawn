@@ -1,0 +1,44 @@
+{
+    "displayName": "Attack",
+    "fluxCapacitors": 3,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "rd_heron",
+    "hullMods": ["RD_enhanced_shield_b"],
+    "permaMods": [],
+    "variantId": "rd_heron_attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "RD_High_shock_wave",
+                "WS 004": "RD_High_shock_wave"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "gravitonbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 009": "irpulse"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lrpdlaser",
+                "WS 002": "lrpdlaser",
+                "WS 010": "lrpdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "rd_iridescent_cloud_wing",
+        "rd_iridescent_cloud_wing",
+        "rd_iridescent_cloud_wing"
+    ]
+}

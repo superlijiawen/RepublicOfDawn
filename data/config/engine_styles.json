@@ -1,0 +1,19 @@
+{
+	# Reserved engine style ids (can not be used):
+	# "CUSTOM"
+	
+	
+	"DAWN_TECH":{
+		"engineColor":[225,150,220,255],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[100,100,100,25],
+		"contrailCampaignColor":[150,120,100,75],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	
+}
+

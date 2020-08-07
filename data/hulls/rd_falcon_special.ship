@@ -1,0 +1,224 @@
+{
+  "hullName": "RD_falcon",
+  "hullId": "rd_falcon_special",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/rd_falcon_special.png",
+  "style": "DAWN_TECH",
+  "height": 222,
+  "width": 162,
+  "center": [81, 88],
+  "collisionRadius": 182,
+  "shieldCenter": [23, 0],
+  "shieldRadius": 155,
+  "viewOffset": 0,
+  "builtInMods": [
+    "RD_deformed_hull",
+    "RD_purification_attack",
+	"RD_never_disintegrate",
+  ],
+  "builtInWeapons": {
+    "WS 007": "RD_RavagerLaserCannon",
+	"WS0004": "RD_RavagerLaserCannon"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-17, 69]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 155,
+      "locations": [-61, 26]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 205,
+      "locations": [-61, -26]
+    },
+    {
+      "id": "WS 007",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [119, 22]
+    },
+    {
+      "id": "WS 009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 65,
+      "locations": [55, 29]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [47, -53.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 315,
+      "locations": [0, -44.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [32.5, -27.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 65,
+      "locations": [14.5, 36.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-81, 38],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-83, 27],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-84, 16],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-83, -16],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-83, -27],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-82, -38],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-34, 75],
+      "length": 24,
+      "width": 8,
+      "angle": 160,
+      "contrailSize": 128,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-39, 65],
+      "length": 28,
+      "width": 8,
+      "angle": 165,
+      "contrailSize": 128,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-44, 55],
+      "length": 32,
+      "width": 8,
+      "angle": 170,
+      "contrailSize": 128,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [28, -57.5],
+      "length": 24,
+      "width": 8,
+      "angle": -150,
+      "contrailSize": 128,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-33.5, -46],
+      "length": 32,
+      "width": 8,
+      "angle": -165,
+      "contrailSize": 128,
+      "style": "DAWN_TECH"
+    }
+  ],
+  "bounds": [
+    -16, 81,
+    -17, 63,
+    132, 30,
+    129, 10,
+    17, 13,
+    18.5, -8.5,
+    53.5, -8.5,
+    53.5, -45,
+    46.5, -45,
+    46.5, -63.5,
+    29, -64,
+    22, -49.5,
+    10.5, -45.5,
+    -2.5, -58,
+    -11.5, -50,
+    -30, -50,
+    -38, -40.5,
+    -73, -43,
+    -81, -11,
+    -45, -9,
+    -45, 10,
+    -79, 11,
+    -78, 46,
+    -35, 37,
+    -43, 48,
+    -29, 79
+  ]
+}

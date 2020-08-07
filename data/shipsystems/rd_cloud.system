@@ -1,0 +1,13 @@
+{
+	"id":"rd_cloud",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.RD_Cloud",
+	
+	"weaponGlowColor":[255,60,250,155],
+	"weaponTypes":[ENERGY],
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

@@ -1,0 +1,67 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 500,
+  "fireSoundTwo": "swarmer_fire",
+  "hardpointAngleOffsets": [
+    -2,
+    1,
+    2,
+    -1
+  ],
+  "hardpointOffsets": [
+    22,
+    -6,
+    22,
+    2,
+    22,
+    6,
+    22,
+    -2
+  ],
+  "hardpointSprite": "graphics/missiles/shower/rd_shower.png",
+  "id": "RD_shower",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "RD_shower",
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "smokeSpec": {
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 10,
+    "cloudDuration": 0.9,
+    "cloudParticleCount": 3,
+    "cloudRadius": 8,
+    "particleColor": [
+      170,
+      160,
+      150,
+      100
+    ],
+    "particleSizeMin": 10,
+    "particleSizeRange": 16
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    -2,
+    1,
+    2,
+    -1
+  ],
+  "turretOffsets": [
+    14,
+    -6,
+    14,
+    2,
+    14,
+    6,
+    14,
+    -2
+  ],
+  "turretSprite": "graphics/missiles/shower/rd_shower.png",
+  "type": "MISSILE"
+}

@@ -1,0 +1,5 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
+rd_solar_catalytic,太阳能催化装置,30,60,,4,,,industry,,graphics/icons/industry/rd_solar_catalytic.png,data.scripts.campaign.econ.industries.RD_SolarCatalytic,吸收太阳能，制造补给的先进技术,9888
+rd_solomon_idol,所罗门神像,200,120,,10,,,"patrol,military",,graphics/icons/industry/rd_solomon_idol.png,data.scripts.campaign.econ.industries.RD_SolomonIdol,"黎明共和国仿照远古地球宗教而修建的宏伟建筑，周围有重兵守护，能够每隔一段时间刷新""黎明之盾""护卫队。",9889
+rd_ecological_breeding_base,曙光生态养殖基地,60,60,,6,,,industry,,graphics/icons/industry/rd_ecological_breeding_base.png,data.scripts.campaign.econ.industries.RD_DawningEcologicalBreedingBase,黎明共和国的生态养殖基地,9890
+rd_embassy,共和国大使馆,200,120,,8,,,industry,,graphics/icons/industry/rd_embassy.png,data.scripts.campaign.econ.industries.RD_Embassy,为了改善与其他势力的关系而修建的大使馆，能够长时间提升流通性，提升的流通性数值与友好势力所占的百分比有关，同时也消耗了不少商品。,9891

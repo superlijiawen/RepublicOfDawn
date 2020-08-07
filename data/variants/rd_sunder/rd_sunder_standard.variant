@@ -1,0 +1,46 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 9,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "rd_sunder",
+    "hullMods": [
+        "RD_enhanced_shield_a",
+        "RD_enhanced_shield_c"
+    ],
+    "permaMods": [],
+    "variantId": "rd_sunder_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "RD_High_shock_wave",
+                "WS0005": "RD_High_shock_wave"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "RD_icecrystalray"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "RD_spear_of_dawn"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "RD_icecrystalray"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "RD_wave",
+                "WS0007": "RD_wave"
+            }
+        }
+    ]
+}

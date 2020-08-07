@@ -1,0 +1,63 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+
+    "rebelFleetSuffix":"共和国叛军",
+    
+    "directoryUseShortName":true,
+	
+	"marketSpawnWeight":0.8,
+	
+	"startRelationships":{ "independent":0.35, "hegemony":-0.65 },
+    "maxRelationships":{ "independent":0.50, "hegemony": -1.0 },
+    "diplomacyPositiveChance":{ "tritachyon":0.5, },
+    "diplomacyNegativeChance":{ "tritachyon":0.75, },
+	"diplomacyTraits":["stalwart","likes_ai","neutralist","irredentist","lowprofile"],
+    
+    "alignments":{
+        "technocratic":0.3,
+        "diplomatic":0.5,
+        "militarist":-0.5,
+		"ideological":1.0,
+    },
+    
+    "startShipsSolo":["rd_hammerhead_striker"],
+    "startShipsTradeSmall":[
+		"rd_hammerhead_striker","rd_gemini_balanced",
+	],
+    "startShipsTradeLarge":[
+		"rd_hammerhead_striker","rd_brawler_attack","rd_gemini_balanced",
+	],
+    "startShipsCombatSmall":[
+		"rd_hammerhead_striker","rd_brawler_attack","rd_saint_balanced",
+	],
+    "startShipsCombatLarge":[
+		"rd_stratocumulus_elite","rd_sunder_attack","rd_monitor_strike","rd_saint_balanced",
+	],
+    "startShipsCarrierSmall":[
+		"rd_heron_support","rd_sunder_attack",
+	],
+    "startShipsCarrierLarge":[
+		"rd_heron_support","rd_cirrus_strike","rd_saint_balanced",
+	],
+    
+    "startSpecialItems":[
+        [["rd_basic_bp", ""]],
+    ],
+	
+    
+    "defenceStations":[
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"]},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_pristine", "count":1},
+    ],
+}

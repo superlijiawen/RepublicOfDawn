@@ -1,0 +1,69 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 22,
+    "fluxVents": 22,
+    "goalVariant": true,
+    "hullId": "rd_onslaught",
+    "hullMods": [
+        "RD_humanizedTargetPositioning",
+        "RD_enhanced_shield_c",
+        "RD_enhanced_shield_a"
+    ],
+    "permaMods": [],
+    "variantId": "rd_onslaught_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "amblaster",
+                "WS0005": "amblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "harpoonpod",
+                "WS0003": "harpoonpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "hellbore",
+                "WS0016": "hellbore",
+                "WS0025": "RD_spear_of_dawn",
+                "WS0026": "RD_spear_of_dawn"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavyneedler",
+                "WS0009": "lightac",
+                "WS0010": "lightac",
+                "WS0017": "lightneedler",
+                "WS0018": "lightneedler",
+                "WS0019": "lightneedler",
+                "WS0020": "lightneedler",
+                "WS0021": "RD_icecrystalray",
+                "WS0022": "RD_icecrystalray",
+                "WS0023": "heavyneedler",
+                "WS0024": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "RD_wave",
+                "WS0011": "dualflak",
+                "WS0012": "dualflak",
+                "WS0013": "RD_wave"
+            }
+        }
+    ]
+}

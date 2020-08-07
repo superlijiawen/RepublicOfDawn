@@ -1,0 +1,65 @@
+{
+  "hullName": "RD_iridescent_cloud",
+  "hullId": "rd_iridescent_cloud",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/rd_iridescent_cloud.png",
+  "style": "DAWN_TECH",
+  "height": 36,
+  "width": 26,
+  "center": [13, 18],
+  "builtInMods": ["RD_purification_balanced"],
+  "collisionRadius": 20,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 17,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1, 7.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-1, -7.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [3, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8.5, -0],
+      "length": 13.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    10, -0,
+    7, 8.5,
+    1, 12.5,
+    -10, 12.5,
+    -15, -0,
+    -10.5, -12.5,
+    0.5, -12.5,
+    0.5, -12.5,
+    7, -9.5
+  ]
+}

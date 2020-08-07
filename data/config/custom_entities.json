@@ -1,0 +1,40 @@
+{
+  "dyson_ball": {
+    "defaultName": "虚无空间站",
+    "defaultRadius": 120,
+    "customDescriptionId": "rd_dyson_ball",
+    "interactionImage": "graphics/illustrations/rd_dyson_ball.jpg",
+    "icon": "graphics/icons/rd_dyson_ball.png",
+    "iconWidth": 30,
+    "iconHeight": 30,
+    "sprite": "graphics/stations/rd_station.png",
+    "spriteWidth": 160,
+    "spriteHeight": 160,
+    "renderShadow": true,
+    "useLightColor": true,
+    "showInCampaign": true,
+    "showIconOnMap": true,
+    "showNameOnMap": true,
+    "scaleNameWithZoom": false,
+    "scaleIconWithZoom": true,
+    "tags": [
+      "station"
+    ],
+    "layers": [
+      STATIONS
+    ],
+  },
+  
+  "rd_abandoned_land":{
+		"defaultName":"遗弃之地", # used if name=null in addCustomEntity()
+		"nameInText":"遗弃之地",
+		"shortName":"遗弃之地",
+		"aOrAn":"一处",
+		"isOrAre":"可能",
+		"customDescriptionId":"rd_abandoned_land",
+		"interactionImage":"graphics/illustrations/space_wreckage.jpg",
+		"tags":["has_interaction_dialog", "salvageable", "neutrino_low"],
+	},
+	
+  
+}

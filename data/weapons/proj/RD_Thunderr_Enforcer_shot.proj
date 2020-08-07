@@ -1,0 +1,16 @@
+{
+	"id":"RD_ThunderrEnforcer_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.RD_ThunderOnHitEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":50.0,
+	"width":15.0,
+	"fadeTime":0.25,
+	"fringeColor":[150,100,255,255],
+	"coreColor":[255,0,205,200],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

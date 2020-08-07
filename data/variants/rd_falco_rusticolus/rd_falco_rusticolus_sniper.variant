@@ -1,0 +1,57 @@
+{
+    "displayName": "sniper",
+    "fluxCapacitors": 5,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "rd_falco_rusticolus",
+    "hullMods": ["RD_enhanced_shield_a"],
+    "permaMods": [],
+    "variantId": "rd_falco_rusticolus_sniper",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "RD_icecrystalray",
+                "WS0007": "RD_icecrystalray",
+                "WS0008": "RD_icecrystalray"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "harpoon",
+                "WS0002": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "RD_icecrystalray",
+                "WS0005": "RD_icecrystalray",
+                "WS0006": "RD_icecrystalray"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "taclaser",
+                "WS 011": "taclaser",
+                "WS 012": "taclaser",
+                "WS0003": "taclaser",
+                "WS0004": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdburst",
+                "WS 004": "pdburst"
+            }
+        }
+    ]
+}

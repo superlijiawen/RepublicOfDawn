@@ -1,0 +1,28 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 2,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "rd_monitor",
+    "hullMods": ["RD_enhanced_shield_c"],
+    "permaMods": [],
+    "variantId": "rd_monitor_strike",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightneedler",
+                "WS 004": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "flak",
+                "WS 002": "flak"
+            }
+        }
+    ]
+}

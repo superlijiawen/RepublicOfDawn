@@ -1,0 +1,55 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 8,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "rd_falco_rusticolus",
+    "hullMods": ["RD_enhanced_shield_c"],
+    "permaMods": [],
+    "variantId": "rd_falco_rusticolus_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "RD_ThunderRetributor",
+                "WS 013": "RD_ThunderRetributor",
+                "WS0007": "RD_icecrystalray",
+                "WS0008": "RD_icecrystalray"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "RD_negative_ion",
+                "WS0002": "RD_positive_ion"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "taclaser",
+                "WS 012": "taclaser",
+                "WS0003": "taclaser",
+                "WS0004": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 011": "RD_ThunderrEnforcer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "RD_pd_laser_small",
+                "WS 004": "RD_pd_laser_small",
+                "WS0005": "RD_pd_laser_middle",
+                "WS0006": "RD_pd_laser_middle"
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "displayName": "RD_Hammerhead_Striker",
+    "fluxCapacitors": 8,
+    "fluxVents": 2,
+    "goalVariant": true,
+    "hullId": "rd_hammerhead",
+    "hullMods": ["RD_enhanced_shield_a"],
+    "permaMods": [],
+    "variantId": "rd_hammerhead_striker",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "RD_mid_aperture",
+                "WS 002": "RD_mid_aperture"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "RD_positive_ion",
+                "WS 004": "RD_negative_ion"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "RD_High_shock_wave",
+                "WS 006": "RD_High_shock_wave"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "RD_pd_laser_small",
+                "WS 008": "RD_pd_laser_small"
+            }
+        }
+    ]
+}

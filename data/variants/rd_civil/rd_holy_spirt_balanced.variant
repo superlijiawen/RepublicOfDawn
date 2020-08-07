@@ -1,0 +1,33 @@
+{
+    "displayName": "New Variant",
+    "fluxCapacitors": 10,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "rd_holy_spirt",
+    "hullMods": ["RD_humanized_logistics"],
+    "permaMods": [],
+    "variantId": "rd_holy_spirt_balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "lightdualac"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "RD_wave"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "lightdualmg",
+                "WS 002": "lightdualmg",
+                "WS 004": "lightdualmg",
+                "WS 005": "lightdualmg",
+                "WS 007": "lightdualmg"
+            }
+        }
+    ]
+}

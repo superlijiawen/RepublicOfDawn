@@ -1,0 +1,182 @@
+{
+  "hullName": "RD_Sunder",
+  "hullId": "rd_sunder",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/rd_sunder.png",
+  "style": "DAWN_TECH",
+  "height": 200,
+  "width": 124,
+  "center": [62, 81.5],
+  
+  "builtInMods": ["RD_purification_attack"],
+  
+  "collisionRadius": 125.5,
+  "shieldCenter": [16, -0],
+  "shieldRadius": 110.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [52.5, 29]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -0,
+      "locations": [52.5, -29]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [38, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 40,
+      "locations": [14.5, 29]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -40,
+      "locations": [14.5, -29]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 130,
+      "locations": [-23.5, 47]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -130,
+      "locations": [-23.5, -47]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-76, 46],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-76, -46],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-74, 36.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-74, -36.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-70.5, 21.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-70.5, -21.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [40, 49.5],
+      "length": 14.941603,
+      "width": 11.488868,
+      "angle": 114,
+      "contrailSize": 11.488868,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [40, -49.5],
+      "length": 14.941603,
+      "width": 11.488868,
+      "angle": -114,
+      "contrailSize": 11.488868,
+      "style": "DAWN_TECH"
+    }
+  ],
+  "bounds": [
+    66.5, -1.5,
+    111.5, -17,
+    110, -42,
+    46.5, -58.5,
+    42.5, -52,
+    29.5, -49.5,
+    -19, -61,
+    -30, -61,
+    -34.5, -55,
+    -56, -49.5,
+    -69.5, -55,
+    -76, -51,
+    -75, -31,
+    -69.5, -14,
+    -44, -12,
+    -32.5, -3,
+    -32.5, 3,
+    -44, 12,
+    -69.5, 14,
+    -75, 31,
+    -76, 51,
+    -69.5, 55,
+    -56, 49.5,
+    -34.5, 55,
+    -30, 61,
+    -19, 61,
+    29.5, 49.5,
+    42.5, 52,
+    46.5, 58.5,
+    110, 42,
+    111.5, 17,
+    66.5, 1.5
+  ]
+}

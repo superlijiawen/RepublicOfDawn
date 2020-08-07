@@ -1,0 +1,64 @@
+{
+  "id": "RD_negative_ion",
+  "specClass": "projectile",
+  "projectileSpecId": "RD_missle_negative_ion_srm",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/missiles/ion/rd_negative_ion.png",
+  "hardpointSprite": "graphics/missiles/ion/rd_negative_ion.png",
+  "renderAboveAllWeapons": 0,
+  "turretOffsets": [
+    13,
+    1,
+    13,
+    1,
+    13,
+    -1,
+    13,
+    -1
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    20,
+    1,
+    20,
+    1,
+    20,
+    -1,
+    20,
+    -1
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "cloudParticleCount": 3,
+    "cloudDuration": 0.9,
+    "cloudRadius": 8,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackSpread": 10,
+    "particleColor": [
+      250,
+      180,
+      255,
+      100
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "swarmer_fire"
+}

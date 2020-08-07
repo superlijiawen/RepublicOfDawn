@@ -1,0 +1,182 @@
+{
+    "bounds": [
+        14,
+        40,
+        25,
+        0,
+        15,
+        -39,
+        -9,
+        -53,
+        -22,
+        -31,
+        -16,
+        0,
+        -21,
+        33,
+        -9,
+        53
+    ],
+	
+	"builtInMods": ["RD_purification_attack"],
+
+	
+    "center": [
+        55,
+        26
+    ],
+    "collisionRadius": 70,
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 48,
+            "location": [
+                -26,
+                28
+            ],
+            "style": "DAWN_TECH",
+            "width": 24
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 48,
+            "location": [
+                -26,
+                -28
+            ],
+            "style": "DAWN_TECH",
+            "width": 24
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 24,
+            "location": [
+                -23,
+                11
+            ],
+            "style": "DAWN_TECH",
+            "width": 12
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 24,
+            "location": [
+                -23,
+                -11
+            ],
+            "style": "DAWN_TECH",
+            "width": 12
+        },
+        {
+            "angle": 145,
+            "contrailSize": 128,
+            "length": 16,
+            "location": [
+                -15,
+                52
+            ],
+            "style": "DAWN_TECH",
+            "width": 6
+        },
+        {
+            "angle": 225,
+            "contrailSize": 128,
+            "length": 16,
+            "location": [
+                -15,
+                -52
+            ],
+            "style": "DAWN_TECH",
+            "width": 6
+        },
+        {
+            "angle": 160,
+            "contrailSize": 128,
+            "length": 20,
+            "location": [
+                -20,
+                44
+            ],
+            "style": "DAWN_TECH",
+            "width": 6
+        },
+        {
+            "angle": 200,
+            "contrailSize": 128,
+            "length": 20,
+            "location": [
+                -20,
+                -44
+            ],
+            "style": "DAWN_TECH",
+            "width": 6
+        }
+    ],
+    "height": 54,
+    "hullId": "rd_brawler",
+    "hullName": "RD_brawler",
+    "hullSize": "FRIGATE",
+    "shieldCenter": [
+        0,
+        0
+    ],
+    "shieldRadius": 70,
+    "spriteName": "graphics/ships/rd_brawler.png",
+    "style": "DAWN_TECH",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": 0,
+            "arc": 5,
+            "id": "WS 001",
+            "locations": [
+                16,
+                22
+            ],
+            "mount": "HARDPOINT",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 0,
+            "arc": 5,
+            "id": "WS 002",
+            "locations": [
+                16,
+                -22
+            ],
+            "mount": "HARDPOINT",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 0,
+            "arc": 10,
+            "id": "WS 003",
+            "locations": [
+                7,
+                46
+            ],
+            "mount": "HARDPOINT",
+            "size": "SMALL",
+            "type": "UNIVERSAL"
+        },
+        {
+            "angle": 0,
+            "arc": 10,
+            "id": "WS 004",
+            "locations": [
+                7,
+                -46
+            ],
+            "mount": "HARDPOINT",
+            "size": "SMALL",
+            "type": "UNIVERSAL"
+        }
+    ],
+    "width": 110
+}

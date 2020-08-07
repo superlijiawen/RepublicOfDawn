@@ -1,0 +1,68 @@
+{
+    "displayName": "attack",
+    "fluxCapacitors": 7,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "rd_conquest",
+    "hullMods": [
+        "RD_humanizedTargetPositioning",
+        "RD_enhanced_shield_a",
+        "reinforcedhull"
+    ],
+    "permaMods": [],
+    "variantId": "rd_conquest_attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "RD_shower",
+                "WS 002": "RD_shower"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 019": "annihilatorpod",
+                "WS 020": "annihilatorpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "hephag",
+                "WS 013": "hephag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "taclaser",
+                "WS 004": "taclaser",
+                "WS 005": "taclaser",
+                "WS 006": "taclaser",
+                "WS 012": "heavyneedler",
+                "WS 014": "heavyneedler",
+                "WS 015": "arbalest",
+                "WS 016": "heavymauler",
+                "WS 017": "arbalest",
+                "WS 018": "heavymauler",
+                "WS 022": "RD_icecrystalray",
+                "WS 023": "RD_icecrystalray"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "pdburst",
+                "WS 008": "pdburst",
+                "WS 009": "pdburst",
+                "WS 010": "pdburst"
+            }
+        }
+    ]
+}

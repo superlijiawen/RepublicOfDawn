@@ -1,0 +1,35 @@
+{
+    "starSystems":{
+      "solomon_planet_augustus":"Augustus",
+      "solomon_planet_tang":"Tang",
+	  "solomon_planet_okobe":"Okobe",
+	  "solomon_planet_jerusalem":"Jerusalem",
+	  
+	  "annacleon_planet_endpoint":"Endpoint",
+	  "annacleon_planet_anna":"Anna",
+	  "annacleon_planet_susan":"Susan",
+	  "annacleon_planet_katerina":"Katerina",
+	  
+	  "sirius_planet_tatar":"Tatar",
+	  "sirius_planet_asentana":"Asentana",
+	  "sirius_planet_pompeii":"Pompeii",
+	  "sirius_planet_brick":"Brick"
+
+    },
+	"shipSystem":{
+      
+	},
+    "hullMod":{
+    #  "hfsSystem":"performance decreased by %s",
+    },
+    
+}
+
+
+
+
+
+
+
+
+

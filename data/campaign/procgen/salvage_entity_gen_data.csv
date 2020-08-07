@@ -1,0 +1,2 @@
+id,rating,detection_range,type,autoXP,xpDiscover,xpSalvage,tags,drop_value,drop_random,defFaction,defQuality,probDefenders,minStr,maxStr,maxSize,probStation,stationRole
+rd_abandoned_land,0,,,,,,,rd_basic:4000,rd_special:1,,,,,,3,,

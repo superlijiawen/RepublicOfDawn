@@ -1,0 +1,30 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 4,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "rd_brawler",
+    "hullMods": ["RD_enhanced_shield_a"],
+    "permaMods": [],
+    "variantId": "rd_brawler_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "heavyneedler"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "lightneedler"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "RD_ThunderrEnforcer",
+                "WS 004": "RD_ThunderrEnforcer"
+            }
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+	"enableSleep":true,
+	"sleep_supplies_consume_mult":0.5,
+
+  "designTypeColors": {
+    "黎明工程":[255, 0, 205, 255],
+  },
+  "plugins": {
+    
+  },
+  "graphics": {
+    "blueprint_packages": {
+		"rd_basic_bp":"graphics/icons/cargo/package_rb.png",
+		"rd_high_bp":"graphics/icons/cargo/package_rb.png"
+    },
+    "beams": {
+      
+    },
+    "intel": {
+		"dawn_action":"graphics/icons/intel/dawn_action.png",
+		"rd_balck_dwarf":"graphics/icons/intel/rd_balck_dwarf.png"
+    },
+    "misc": {
+      
+    },
+    "event": {
+      
+    },
+    "fx": {
+   
+    },
+    "portraits": {
+		"RD_SoulKnight":"graphics/portraits/RD_SoulKnight.png",
+		"RD_Ottoman":"graphics/portraits/RD_Ottoman.png"
+    },
+    "stations": {
+    
+    },
+    "terrain": {
+		"RD_quasarnebula":"graphics/terrain/RD_quasarnebula.png",
+		"RD_quasarnebula_glow":"graphics/terrain/RD_quasarnebula_glow.png",
+		"RD_quasarnebula_map":"graphics/terrain/RD_quasarnebula_map.png"
+    },
+    "illustrations": {
+		"RD_urban":"graphics/illustrations/rd_urban.jpg"
+    },
+    "industry": {
+
+    }
+  },
+  
+  "rd_dawn_action_bounty":500,
+}

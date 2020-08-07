@@ -1,0 +1,41 @@
+id,trigger,conditions,script,text,options,notes
+# republic_of_dawn fleet greeting lines,,,,,,
+greetingRDFriendly,OpenCommLink,"$faction.id == republic_of_dawn
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""您好，我们黎明共和国最致敬的朋友，愿曙光与您共存！""",,
+greetingRDHostileWeaker,OpenCommLink,"$faction.id == republic_of_dawn
+$faction.hostileToPlayer
+$relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""总算抓住你了！今天就把你抛进黑暗混沌中。""",cutCommLink:切断了通讯,
+greetingRDHostileWeakerDefiant,OpenCommLink,"$faction.id == republic_of_dawn
+$faction.hostileToPlayer
+$relativeStrength < 0
+$weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"""死在我们黎明共和国手上，是你的荣幸！""",cutCommLink:切断了通讯,
+greetingRDHostileStronger,OpenCommLink,"$faction.id == republic_of_dawn
+$faction.hostileToPlayer
+$relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"""再见了！我的敌人！""",cutCommLink:切断了通讯,
+greetingRDNeutral,OpenCommLink,"$faction.id == republic_of_dawn
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""你是哪位？我似乎在哪见过你？""",,
+,,,,,,
+# relationship level descriptions (republic_of_dawn),,,,,,
+relLevelNeutralRepublicOfDawn,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == republic_of_dawn",,$theFaction 并不认识你，认为你只是一只碍眼的小虫子。,,
+relLevelFavorableRepublicOfDawn,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == republic_of_dawn",, $theFaction 的部分军官似乎认识你，但想要获取他们的赏识还得多接触接触。,,
+relLevelWelcomingRepublicOfDawn,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == republic_of_dawn",,你的大名已经在 $theFaction 的高层人员间颇有耳闻，$theFaction 非常欣赏你。,,
+relLevelFriendlyRepublicOfDawn,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == republic_of_dawn",,你的所作所为已经让 $theFaction 领袖注意到了你，并试图派出说客劝说你加入 $theFaction ，并许诺给你海军上将的职位。,,
+relLevelCooperativeRepublicOfDawn,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == republic_of_dawn",,你的存在已经严重威胁到了领袖的地位，为了维护威严，$theFaction 将会特别招待你！,,
+relLevelSuspiciousRepublicOfDawn,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == republic_of_dawn",,你似乎干了什么坏事，索幸没有被检察官抓个正着。,,
+relLevelInhospitableRepublicOfDawn,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == republic_of_dawn",,你的屡次犯罪行为已经在业内人士中留下不少恶名， $theFaction 会试图攻击你！,,
+relLevelHostileRepublicOfDawn,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == republic_of_dawn",,猎杀潜航！由于你亵渎了所罗门神的神谕，领袖下达了死命令，将部署大量的猎杀舰队消灭你！,,
+relLevelVengefulRepublicOfDawn,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == republic_of_dawn",,你的名字被刻在所罗门墓场的耻辱柱上。。。,,
+,,,,,,
+flavorTextMarketRepublicOfDawn,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == republic_of_dawn","AddText ""  华光彩照的购物大厅上，形形色色的人群漫步在各大店铺。紫色的电子琼楼，蓝色的哥特式建筑，仿佛来到了《黎明共和国大典》中描述的远古地球的某个古城。身披勋章的老者坐在共和国荣耀宝座上，威严地看着匆忙的人们。黎明共和国的巡逻卫队在市场附近监视。  "" textGrayColor",,,

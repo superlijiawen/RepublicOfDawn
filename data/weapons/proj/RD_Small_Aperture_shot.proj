@@ -1,0 +1,20 @@
+{
+	"id":"RD_Small_Aperture_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":30.0,
+	"hitGlowRadius":50,
+	"width":5.0,
+	"fadeTime":0.2,
+	#"fringeColor":[255,125,125,255],
+	#"coreColor":[255,200,200,150],
+	"fringeColor":[215,80,255,225],
+	"coreColor":[242,40,210,180],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/weapons/aperture/rd_small_aperture_shot.png",
+	"onHitEffect":"data.scripts.weapons.RD_ApertureEffect",
+
+}

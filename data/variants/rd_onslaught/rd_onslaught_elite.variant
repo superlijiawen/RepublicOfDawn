@@ -1,0 +1,70 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 12,
+    "fluxVents": 17,
+    "goalVariant": true,
+    "hullId": "rd_onslaught",
+    "hullMods": [
+        "RD_humanizedTargetPositioning",
+        "RD_enhanced_shield_c",
+        "RD_enhanced_shield_a",
+        "auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "variantId": "rd_onslaught_elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "RD_small_aperture",
+                "WS0018": "RD_small_aperture",
+                "WS0019": "RD_small_aperture",
+                "WS0020": "RD_small_aperture"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "annihilator",
+                "WS0005": "annihilator"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "hephag",
+                "WS0016": "hephag",
+                "WS0025": "RD_Quasar_pulse_laser",
+                "WS0026": "RD_Quasar_pulse_laser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "harpoonpod",
+                "WS0003": "harpoonpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "hveldriver",
+                "WS0008": "RD_wave",
+                "WS0009": "arbalest",
+                "WS0010": "arbalest",
+                "WS0011": "RD_pd_laser_middle",
+                "WS0012": "RD_pd_laser_middle",
+                "WS0013": "RD_wave",
+                "WS0021": "RD_ThunderRetributor",
+                "WS0022": "RD_ThunderRetributor",
+                "WS0023": "RD_icecrystalray",
+                "WS0024": "RD_icecrystalray"
+            }
+        }
+    ]
+}

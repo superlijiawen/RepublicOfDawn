@@ -1,0 +1,177 @@
+{
+  "hullName": "RD_cirrus",
+  "hullId": "rd_cirrus",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/rd_cirrus.png",
+  "style": "DAWN_TECH",
+  "height": 156,
+  "width": 176,
+  "center": [88, 56],
+  
+  "builtInMods": ["RD_purification_attack","RD_cloud_ship"],
+
+  
+  "collisionRadius": 109.5,
+  "shieldCenter": [11.5, -0.5],
+  "shieldRadius": 97.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [37.5, -0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [75, -47]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [75, 47]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [34, -47]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -0,
+      "locations": [34, 47]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -135,
+      "locations": [-14, -37]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 135,
+      "locations": [-14, 37]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 63.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-14, -63.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-15, 53],
+      "length": 30,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-15, -53],
+      "length": 30,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-55.5, 7.5],
+      "length": 30,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-55.5, -7.5],
+      "length": 30,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-54.5, 15],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-54.5, -15],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "DAWN_TECH"
+    }
+  ],
+  "bounds": [
+    99, 11.5,
+    70, 16.5,
+    33, 26.5,
+    83, 36.5,
+    83, 57.5,
+    63.5, 60.5,
+    25, 74,
+    0, 86.5,
+    -14, 73.5,
+    -16, 46.5,
+    -33.5, 37,
+    -43.5, 22.5,
+    -52, 18.5,
+    -52, -18.5,
+    -43.5, -22.5,
+    -33.5, -37,
+    -16, -46.5,
+    -14, -73.5,
+    0, -86.5,
+    25, -74,
+    63.5, -60.5,
+    83, -57.5,
+    83, -36.5,
+    33, -26.5,
+    70, -16.5,
+    99, -11.5
+  ]
+}

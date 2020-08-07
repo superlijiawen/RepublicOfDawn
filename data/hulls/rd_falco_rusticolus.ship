@@ -1,0 +1,273 @@
+{
+  "hullName": "RD_falco_rusticolus",
+  "hullId": "rd_falco_rusticolus",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/rd_falco_rusticolus.png",
+  "style": "DAWN_TECH",
+  "height": 218,
+  "width": 168,
+  "center": [84, 92],
+  "collisionRadius": 182,
+  "shieldCenter": [12, -0],
+  "shieldRadius": 126.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "RD_purification_attack",
+    "RD_dawn_sniper"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 155,
+      "locations": [-68, 30]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 205,
+      "locations": [-68, -30]
+    },
+    {
+      "id": "WS 009",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [28, 0]
+    },
+    {
+      "id": "WS 010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 65,
+      "locations": [65, 52]
+    },
+    {
+      "id": "WS 011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [64, 0]
+    },
+    {
+      "id": "WS 012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -65,
+      "locations": [65, -52]
+    },
+    {
+      "id": "WS 013",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [104, 0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [17.5, -70]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [17.5, 70]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -65,
+      "locations": [33, -53]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 65,
+      "locations": [33, 53]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [6, -42]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -0,
+      "locations": [6, 42]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [96, 25]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [96, -25]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-88, 42],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-90, 31],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-91, 20],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-91, -20],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-90, -31],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-89, -41],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-45.5, 60],
+      "length": 28,
+      "width": 8,
+      "angle": 165,
+      "contrailSize": 128,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-50.5, 55],
+      "length": 32,
+      "width": 8,
+      "angle": 170,
+      "contrailSize": 128,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-45.5, -60],
+      "length": 28,
+      "width": 8,
+      "angle": -165,
+      "contrailSize": 128,
+      "style": "DAWN_TECH"
+    },
+    {
+      "location": [-50.5, -55],
+      "length": 32,
+      "width": 8,
+      "angle": 190,
+      "contrailSize": 128,
+      "style": "DAWN_TECH"
+    }
+  ],
+  "bounds": [
+    -27, 58.5,
+    -27.5, 67.5,
+    -3.5, 69,
+    3.5, 81,
+    17.5, 81,
+    26.5, 74.5,
+    26.5, 67,
+    55, 70.5,
+    111, 43,
+    106, 30,
+    106, 12.5,
+    112, 7,
+    112, -8,
+    106, -12.5,
+    106, -30.5,
+    111, -43,
+    55, -70.5,
+    26.5, -67,
+    26.5, -74.5,
+    17.5, -81,
+    3.5, -81,
+    0, -68,
+    -26, -67.5,
+    -29, -60.5,
+    -44, -63,
+    -53, -48,
+    -82, -53,
+    -87, -11,
+    -57, -9.5,
+    -57, 9.5,
+    -85, 11,
+    -81, 53.5,
+    -54, 48.5,
+    -44, 62
+  ]
+}

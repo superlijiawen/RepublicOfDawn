@@ -1,0 +1,62 @@
+{
+  "beamEffect": "data.scripts.weapons.RD_SpearOfDawnEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "fireSoundTwo": "tachyon_lance_fire",
+  "fringeColor": [
+    255,
+    30,
+    190,
+    255
+  ],
+  "glowColor": [
+    255,
+    70,
+    230,
+    235
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/spearofdawn/rd_spearofdawn_glow.png",
+  "hardpointOffsets": [
+    28,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/spearofdawn/rd_spearofdawn_base.png",
+  "hitGlowRadius": 0,
+  "id": "RD_spear_of_dawn",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "pixelsPerTexel": 5,
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "specClass": "beam",
+  "textureScrollSpeed": 292,
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/spearofdawn/rd_spearofdawn_glow.png",
+  "turretOffsets": [
+    9,
+    0
+  ],
+  "turretSprite": "graphics/weapons/spearofdawn/rd_spearofdawn_base.png",
+  "type": "ENERGY",
+  "width": 25
+}

@@ -1,0 +1,44 @@
+{
+    "displayName": "attack",
+    "fluxCapacitors": 6,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "rd_cirrus",
+    "hullMods": [
+        "RD_enhanced_shield_a",
+        "RD_emp_protection"
+    ],
+    "permaMods": [],
+    "variantId": "rd_cirrus_attack",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "RD_icecrystalray"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "RD_icecrystalray"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "RD_spear_of_dawn"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "RD_wave"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "heavyac",
+                "WS0005": "heavyac",
+                "WS0006": "RD_wave"
+            }
+        }
+    ]
+}

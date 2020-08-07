@@ -1,0 +1,10 @@
+{
+	"id":"RepublicOfDawn",
+	"name":"黎明共和国",
+	"author":"leejack",
+	"version":"1.0 Alpha",
+	"description":"*Requires LazyLib \nA and MagicLib religious group which believe in nature.",
+	"gameVersion":"0.9.1a",
+	"jars":["jars/RepublicOfDawn.jar"],
+	"modPlugin":"data.plugin.RepublicOfDawnModPlugin"
+}

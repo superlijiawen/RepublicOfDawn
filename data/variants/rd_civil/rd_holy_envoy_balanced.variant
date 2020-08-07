@@ -1,0 +1,33 @@
+{
+    "displayName": "New Variant\r",
+    "fluxCapacitors": 3,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "rd_holy_envoy",
+    "hullMods": [
+        "RD_enhanced_shield_a",
+        "RD_republic_fuel_expansion"
+    ],
+    "permaMods": [],
+    "variantId": "rd_holy_envoy_balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightac",
+                "WS 003": "lightac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 004": "lightdualac"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "lightdualmg"}
+        }
+    ]
+}

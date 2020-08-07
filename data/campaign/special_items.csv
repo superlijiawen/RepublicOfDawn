@@ -1,0 +1,5 @@
+name,id,tags,rarity,base price,stack size,cargo space,icon,sound id,sound id drop,plugin,plugin params,desc,order
+黎明共和国基础蓝图包,rd_basic_bp,package_bp,,100000,1000,1,graphics/icons/cargo/rd_blueprint_basic.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,rd_basic_bp,"使重工业设施能够制造 ；黎明共和国 设计中的常规船体, 武器以及战机 LPC. 很可惜, 这些蓝图被删去了重要部分.",120.1
+黎明共和国高级蓝图包,rd_high_bp,package_bp,,800000,1000,1,graphics/icons/cargo/rd_blueprint_high.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,rd_high_bp,"使重工业设施能够制造 ；黎明共和国 设计中的高级船体, 武器以及战机 LPC.",120.2
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,

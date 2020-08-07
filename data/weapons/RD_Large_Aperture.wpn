@@ -1,0 +1,49 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "heavy_mauler_fire",
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGunSprite": "graphics/weapons/aperture/rd_large_aperture_glow.png",
+  "hardpointOffsets": [
+    35.5,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/aperture/rd_large_aperture.png",
+  "id": "RD_large_aperture",
+  "muzzleFlashSpec": {
+    "length": 60,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ],
+    "particleCount": 12,
+    "particleDuration": 0.5,
+    "particleSizeMin": 12,
+    "particleSizeRange": 14,
+    "spread": 7
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "RD_Large_Aperture_shot",
+  "renderAboveAllWeapons": 0,
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/aperture/rd_large_aperture_glow.png",
+  "turretOffsets": [
+    23.5,
+    0
+  ],
+  "turretSprite": "graphics/weapons/aperture/rd_large_aperture.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 7
+}

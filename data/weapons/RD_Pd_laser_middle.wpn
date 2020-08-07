@@ -1,0 +1,59 @@
+{
+  "id": "RD_pd_laser_middle",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/pdlaser/rd_pd_laser_middle.png",
+  "turretGlowSprite": "graphics/weapons/pdlaser/rd_pd_laser_middle_glow.png",
+  "hardpointSprite": "graphics/weapons/pdlaser/rd_pd_laser_middle.png",
+  "hardpointGlowSprite": "graphics/weapons/pdlaser/rd_pd_laser_middle_glow.png",
+  "renderAboveAllWeapons": 0,
+  "glowColor": [
+    255,
+    0,
+    205,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    14,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    21,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    0,
+    175,
+    255
+  ],
+  "coreColor": [
+    255,
+    0,
+    205,
+    255
+  ],
+  "width": 16,
+  "textureType": LASER,
+  "textureScrollSpeed": 250,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "graviton_beam_loop"
+}

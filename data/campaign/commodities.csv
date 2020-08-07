@@ -1,0 +1,3 @@
+name,id,demand class,base price,export value,price variability,utility,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnit,iconWidthMult,plugin,desc
+高级补给,rd_advanced_supplies,rd_advanced_supplies,200,2000,3,1,,military,1000,1,graphics/icons/cargo/rd_advanced_supplies.png,ui_cargo_supplies,ui_cargo_supplies_drop,0.5,2.1,200,0.9,,
+反物质熔炉,rd_antimatter_furnace,rd_antimatter_furnace,200000,,0,,,,1000,4,graphics/icons/cargo/rd_antimatter_furnace.png,ui_cargo_supplies,ui_cargo_supplies_drop,111,,,1,,

@@ -1,0 +1,30 @@
+{
+    "displayName": "New Variant",
+    "fluxCapacitors": 4,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "rd_saint",
+    "hullMods": [
+        "RD_enhanced_shield_a",
+        "RD_republic_fuel_expansion"
+    ],
+    "permaMods": [],
+    "variantId": "rd_saint_balanced",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 001": "lightag"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "swarmer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "lightmg"}
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+  "combatSmallForSmallFleet": {
+	"rd_hammerhead_Balanced":10,
+	"rd_hammerhead_striker":10,
+	"rd_brawler_attack":10,
+	"rd_brawler_assault":10,
+	"rd_monitor_standard":10,
+	"rd_monitor_strike":10,
+  },
+  "combatSmall": {
+	"rd_hammerhead_striker":10,
+	"rd_brawler_attack":10,
+	"rd_cirrus_attack":10,
+	"rd_cirrus_strike":10,
+	"rd_sunder_standard":10,
+	"rd_sunder_attack":10,
+  },
+  "combatMedium": {
+  	"rd_cirrus_attack":10,
+	"rd_cirrus_strike":10,
+	"rd_sunder_standard":10,
+	"rd_sunder_attack":10,
+	"rd_heron_support":10,
+	"rd_falcon_attack":10,
+	"rd_falcon_strike":10,
+	"rd_falco_rusticolus_standard":10,
+	"rd_stratocumulus_elite":10,
+	"rd_stratocumulus_attack":10,
+	"rd_morning_glow_standard":10,
+  },
+  "combatLarge": {
+	"rd_cirrus_strike":10,
+	"rd_heron_support":10,
+	"rd_falco_rusticolus_sniper":10,
+	"rd_falcon_attack":10,
+	"rd_cumulonimbus_elite":10,
+	"rd_cumulonimbus_standard":5,
+	"rd_morning_glow_destory":10,
+	"rd_conquest_attack":10,
+  },
+  "combatCapital": {
+	"rd_cirrus_strike":10,
+	"rd_heron_support":10,
+	"rd_falco_rusticolus_sniper":10,
+	"rd_falcon_attack":10,
+	"rd_cumulonimbus_elite":10,
+	"rd_cumulonimbus_standard":5,
+	"rd_morning_glow_destory":10,
+	"rd_conquest_destory":10,
+	"rd_onslaught_standard":8,
+	"rd_onslaught_elite":5,
+	"rd_dawn_standard":5,
+	"rd_dawn_attack":2,
+  },
+  "combatFreighterSmall": {
+	"rd_hammerhead_striker":10,
+	"rd_brawler_attack":10,
+	"rd_brawler_assault":10,
+	"rd_monitor_standard":10,
+	"rd_monitor_strike":10,
+  },
+  "combatFreighterMedium": {
+	"rd_holy_envoy_balanced":10,
+	"rd_gemini_balanced":10,
+	"rd_cirrus_attack":10,
+	"rd_sunder_standard":10,
+  },
+  "combatFreighterLarge": {
+  	"rd_holy_spirt_balanced":10,
+	"rd_gemini_balanced":10,
+	"rd_heron_support":10,
+	"rd_falco_rusticolus_sniper":10,
+	"rd_falcon_attack":10,
+	"rd_ox_standard":5,
+  },
+  "civilianRandom": {
+  
+
+  },
+  "carrierSmall": {
+	"rd_gemini_balanced":10,
+  },
+  "carrierMedium": {
+  	"rd_gemini_balanced":10,
+	"rd_atlas_balanced":5,
+  },
+  "carrierLarge": {
+  	"rd_gemini_balanced":10,
+	"rd_atlas_balanced":10,
+  },
+  "phaseSmall": {
+  
+  },
+  "phaseMedium": {
+  },
+  "phaseLarge": {
+  },
+  "phaseCapital": {
+  },
+  "freighterSmall": {
+  },
+  "freighterMedium": {
+  },
+  "freighterLarge": {
+  },
+  "tankerSmall": {
+	"rd_saint_balanced":10,
+  },
+  "tankerMedium": {
+    "rd_holy_envoy_balanced":10,
+  },
+  "tankerLarge": {
+    "rd_holy_spirt_balanced":10,
+  },
+  "personnelSmall": {
+  },
+  "personnelMedium": {
+  },
+  "personnelLarge": {
+  },
+  "linerSmall": {
+  },
+  "linerMedium": {
+  },
+  "linerLarge": {
+  },
+  "tug": {
+  },
+  "crig": {
+  },
+  "utility": {
+  },
+  "orbitalStationLowTech": {
+  },
+  "battlestationLowTech": {
+  },
+}

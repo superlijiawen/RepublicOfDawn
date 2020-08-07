@@ -1,0 +1,62 @@
+{
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "coreColor": [
+    200,
+    225,
+    255,
+    255
+  ],
+  "displayArcRadius": 500,
+  "fireSoundTwo": "graviton_beam_loop",
+  "fringeColor": [
+    5,
+    135,
+    175,
+    255
+  ],
+  "glowColor": [
+    25,
+    215,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/iceCrystalRay/rd_icecrystalray_glow.png",
+  "hardpointOffsets": [
+    26,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/iceCrystalRay/rd_icecrystalray.png",
+  "hitGlowRadius": 0,
+  "id": "RD_icecrystalray",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "pixelsPerTexel": 5,
+  "renderAboveAllWeapons": 0,
+  "size": "MEDIUM",
+  "specClass": "beam",
+  "textureScrollSpeed": 250,
+  "textureType": LASER,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/iceCrystalRay/rd_icecrystalray_glow.png",
+  "turretOffsets": [
+    15,
+    0
+  ],
+  "turretSprite": "graphics/weapons/iceCrystalRay/rd_icecrystalray.png",
+  "type": "ENERGY",
+  "width": 18
+}

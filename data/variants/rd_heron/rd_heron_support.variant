@@ -1,0 +1,40 @@
+{
+    "displayName": "support",
+    "fluxCapacitors": 0,
+    "fluxVents": 1,
+    "goalVariant": true,
+    "hullId": "rd_heron",
+    "hullMods": ["RD_enhanced_shield_a"],
+    "permaMods": [],
+    "variantId": "rd_heron_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "RD_High_shock_wave",
+                "WS 004": "RD_High_shock_wave"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 005": "ionbeam"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "pdburst",
+                "WS 002": "pdburst",
+                "WS 009": "pdburst",
+                "WS 010": "pdburst"
+            }
+        }
+    ],
+    "wings": [
+        "thunder_wing",
+        "thunder_wing",
+        "thunder_wing"
+    ]
+}

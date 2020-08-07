@@ -1,0 +1,11 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 2,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "rd_ox",
+    "hullMods": [],
+    "permaMods": [],
+    "variantId": "rd_ox_standard",
+    "weaponGroups": []
+}

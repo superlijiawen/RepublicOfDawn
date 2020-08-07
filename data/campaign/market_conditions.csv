@@ -1,0 +1,4 @@
+name,id,script,desc,icon,order
+人性复苏,rd_human_resuscitation,data.scripts.campaign.econ.marketconditions.RD_HumanResuscitation,共和国鼓励人性解放，向远古人类学习。万物不过是某一个能量体的不同表现形式，神即人，人即是神。政府鼓励发展经济，人性解放。,graphics/icons/markets/rd_human_resuscitation.png,100.1
+人权宣言,rd_human_rights_declaration,data.scripts.campaign.econ.marketconditions.RD_HumanRightsDeclaration,人人平等，反对强权，崇尚自由，反抗束缚。人人可为兵，但绝不是穷兵黩武，是提高舰队质量，是拿起武器反抗侵略者。,graphics/icons/markets/rd_human_rights_declaration.png,100.2
+霸主增强防御工事,rd_enhanced_defense,data.scripts.campaign.econ.marketconditions.RD_EnhancedDefense,霸主占领了 Anna 后，打算以此为阵地，继续打击共和国，顺便给其他不听话的势力以震慑，便在此殖民地部署了大量军事设施。,graphics/icons/markets/rd_enhanced_defense.png,100.3

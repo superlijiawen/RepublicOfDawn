@@ -1,0 +1,71 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 5,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "rd_dawn",
+    "hullMods": [
+        "RD_enhanced_shield_a",
+        "RD_humanizedTargetPositioning",
+        "RD_emp_protection",
+        "auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "variantId": "rd_dawn_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "RD_large_aperture",
+                "WS0006": "RD_large_aperture",
+                "WS0007": "RD_large_aperture",
+                "WS0008": "RD_large_aperture"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "RD_spear_of_dawn",
+                "WS0002": "RD_spear_of_dawn"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "irpulse",
+                "WS0010": "irpulse",
+                "WS0015": "heavyblaster",
+                "WS0016": "heavyblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "hveldriver",
+                "WS0004": "hveldriver",
+                "WS0011": "taclaser",
+                "WS0012": "taclaser",
+                "WS0013": "taclaser",
+                "WS0014": "taclaser"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "pdburst",
+                "WS0018": "pdburst"
+            }
+        }
+    ],
+    "wings": [
+        "rd_iridescent_cloud_wing",
+        "rd_iridescent_cloud_wing",
+        "rd_iridescent_cloud_wing",
+        "rd_iridescent_cloud_wing"
+    ]
+}

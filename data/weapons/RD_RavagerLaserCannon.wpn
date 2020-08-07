@@ -1,0 +1,54 @@
+{
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "ion_cannon_fire",
+  "glowColor": [
+    200,
+    40,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "hardpointGlowSprite": "graphics/weapons/rd001_hardpoint_glow.png",
+  "hardpointOffsets": [
+    26,
+    0
+  ],
+  "hardpointSprite": "graphics/weapons/rd001_hardpoint.png",
+  "id": "RD_RavagerLaserCannon",
+  "muzzleFlashSpec": {
+    "length": 33,
+    "particleColor": [
+      150,
+      30,
+      255,
+      255
+    ],
+    "particleCount": 17,
+    "particleDuration": 0.12,
+    "particleSizeMin": 10,
+    "particleSizeRange": 12,
+    "spread": 15
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "RD_RavagerLaserCannon_shot",
+  "renderAboveAllWeapons": 0,
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0
+  ],
+  "turretGlowSprite": "graphics/weapons/rd001_turret_glow.png",
+  "turretOffsets": [
+    15,
+    0
+  ],
+  "turretSprite": "graphics/weapons/rd001_turret.png",
+  "type": "ENERGY"
+}

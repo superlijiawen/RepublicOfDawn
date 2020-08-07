@@ -1,0 +1,16 @@
+{
+	# only applies to intel tags
+	
+	"DawnAction":{
+		"name":"黎明行动",
+		#"color":"buttonShortcut",
+		"width":119,
+		"putFirst":true,
+		"sort":66,
+	},
+	
+
+}
+
+
+

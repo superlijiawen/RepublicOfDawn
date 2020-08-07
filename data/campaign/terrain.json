@@ -1,0 +1,11 @@
+{
+  "RD_quasarnebula": {
+    "plugin": "data.scripts.campaign.terrain.RD_QuasarNebulaTerrainPlugin",
+    "musicSuppression": 1,
+    "loopTwo": "terrain_nebula",  #"loopTwo": "terrain_hyperspace_deep",
+    "loopFour": "terrain_hyperspace_storm",
+    "custom": {
+      "stormSound": "terrain_hyperspace_lightning"
+    }
+  }
+}
